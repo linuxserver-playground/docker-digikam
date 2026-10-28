@@ -7,9 +7,10 @@ summary: '[digiKam](https://www.digikam.org/): Professional Photo Management wit
 upstream:
   url: https://www.digikam.org/
   version:
-    type: command
-    run: |-
-      curl -sL https://mirrors.mit.edu/kde/stable/digikam/ | awk -F'(="./|/")' '/href=".\/[0-9]/ {print $2}' | sort -rn | head -n 1
+    type: regex
+    url: https://mirrors.mit.edu/kde/stable/digikam/
+    pattern: href="\./([0-9][^/"]*)/"
+    sort: version
 
 release:
   branch: master
