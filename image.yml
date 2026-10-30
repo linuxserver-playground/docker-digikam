@@ -13,6 +13,9 @@ upstream:
     sort: version
     require_assets:
       - 'https://mirrors.mit.edu/kde/stable/digikam/${VERSION}/digiKam-${VERSION}-Qt6-x86-64.appimage'
+  sponsor:
+  - name: digiKam donate
+    url: https://www.digikam.org/donate/
 
 release:
   branch: master
