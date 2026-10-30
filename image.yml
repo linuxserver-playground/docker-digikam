@@ -11,6 +11,8 @@ upstream:
     url: https://mirrors.mit.edu/kde/stable/digikam/
     pattern: href="\./([0-9][^/"]*)/"
     sort: version
+    require_assets:
+      - 'https://mirrors.mit.edu/kde/stable/digikam/${VERSION}/digiKam-${VERSION}-Qt6-x86-64.appimage'
 
 release:
   branch: master
