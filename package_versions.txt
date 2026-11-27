@@ -113,7 +113,7 @@ exim4-base                                                                    4.
 exim4-config                                                                  4.98.2-1+deb13u5                              deb                              
 exim4-daemon-light                                                            4.98.2-1+deb13u5                              deb                              
 fastapi                                                                       0.165.0                                       python                           
-ffmpeg                                                                        8.0.1                                         binary                           
+ffmpeg                                                                        9.0.1                                         binary                           
 file                                                                          1:5.46-5                                      deb                              
 findutils                                                                     4.10.0-3                                      deb                              
 firmware-amd-graphics                                                         20250410-2                                    deb                              
